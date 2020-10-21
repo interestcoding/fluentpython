@@ -35,4 +35,10 @@ print((a, b, rest))
 a, b, *rest = range(2)
 print((a, b, rest))
 
+a, *body, c, d = range(5)
+print((a, body, c, d))
+
+*head, b, c, d = range(5)
+print((head, b, c, d))
+
 # 2.3.3
