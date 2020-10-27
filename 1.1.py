@@ -27,6 +27,7 @@ def spades_high(card):
 
 
 if __name__ == "__main__":
+    # 1.1 一摞Python风格的纸牌
     print('-' * 80)
     beer_card = Card('7', 'diamonds')
     print(beer_card)
@@ -49,11 +50,11 @@ if __name__ == "__main__":
     print(deck[12::13])
 
     print('-' * 80)
-    for card in deck:
+    for card in deck:  # doctest: +ELLIPSIS
         print(card)
 
     print('-' * 80)
-    for card in reversed(deck):
+    for card in reversed(deck):  # doctest: +ELLIPSIS
         print(card)
 
     print('-' * 80)
@@ -61,5 +62,5 @@ if __name__ == "__main__":
     print(Card('7', 'bearts') in deck)
 
     print('-' * 80)
-    for card in sorted(deck, key=spades_high):
+    for card in sorted(deck, key=spades_high):  # doctest: +ELLIPSIS
         print(card)

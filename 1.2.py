@@ -12,6 +12,7 @@ class Vector:
     def __abs__(self):
         return hypot(self.x, self.y)
 
+    # 1.2.4 自定义的布尔值
     def __bool__(self):
         # return bool(abs(self))
         return bool(self.x or self.y)
@@ -26,6 +27,8 @@ class Vector:
 
 
 if __name__ == "__main__":
+    # 1.2 如何使用特殊方法
+    # 1.2.1 模拟数值类型
     print('-' * 80)
     v1 = Vector(2, 4)
     v2 = Vector(2, 1)
