@@ -28,6 +28,7 @@ def spades_high(card):
 
 if __name__ == "__main__":
     # 1.1 一摞Python风格的纸牌
+    # 示例 1-1 一摞有序的纸牌
     print('-' * 80)
     beer_card = Card('7', 'diamonds')
     print(beer_card)

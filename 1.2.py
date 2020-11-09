@@ -29,6 +29,7 @@ class Vector:
 if __name__ == "__main__":
     # 1.2 如何使用特殊方法
     # 1.2.1 模拟数值类型
+    # 示例 1-2 一个简单的二维向量类
     print('-' * 80)
     v1 = Vector(2, 4)
     v2 = Vector(2, 1)
